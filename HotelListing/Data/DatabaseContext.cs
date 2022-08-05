@@ -70,6 +70,8 @@ namespace HotelListing.Data
 
                }
                );
+
+            base.OnModelCreating(builder);
         }
     }
 }
